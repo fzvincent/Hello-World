@@ -8,10 +8,11 @@
 
 #include <iostream>
 #include "travel.hpp"
+#include "arrobj.hpp"
 int main(int argc, const char * argv[]) {
     // insert code here...
     using namespace std;
-    travel();
+    arrobj();
     cout << "Hello, World!\n";
     
     return 0;

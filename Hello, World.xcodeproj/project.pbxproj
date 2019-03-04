@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BF853A40222D6D7800077DC3 /* Hello World */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hello World"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF853A40222D6D7800077DC3 /* Hello, World */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hello, World"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF853A43222D6D7800077DC3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BF853A50222D70E900077DC3 /* travel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = travel.cpp; sourceTree = "<group>"; };
 		BF853A51222D70E900077DC3 /* travel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = travel.hpp; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		BF853A41222D6D7800077DC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF853A40222D6D7800077DC3 /* Hello World */,
+				BF853A40222D6D7800077DC3 /* Hello, World */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,27 +81,27 @@
 		BF853A54222D74B900077DC3 /* 190304 */ = {
 			isa = PBXGroup;
 			children = (
-				BF853A56222D82F700077DC3 /* New Group */,
+				BF853A56222D82F700077DC3 /* arrobj */,
 				BF853A53222D74AA00077DC3 /* travel */,
 			);
 			path = 190304;
 			sourceTree = "<group>";
 		};
-		BF853A56222D82F700077DC3 /* New Group */ = {
+		BF853A56222D82F700077DC3 /* arrobj */ = {
 			isa = PBXGroup;
 			children = (
 				BF853A57222D830B00077DC3 /* arrobj.cpp */,
 				BF853A58222D830B00077DC3 /* arrobj.hpp */,
 			);
-			path = "New Group";
+			path = arrobj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF853A3F222D6D7800077DC3 /* Hello World */ = {
+		BF853A3F222D6D7800077DC3 /* Hello, World */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF853A47222D6D7800077DC3 /* Build configuration list for PBXNativeTarget "Hello World" */;
+			buildConfigurationList = BF853A47222D6D7800077DC3 /* Build configuration list for PBXNativeTarget "Hello, World" */;
 			buildPhases = (
 				BF853A3C222D6D7800077DC3 /* Sources */,
 				BF853A3D222D6D7800077DC3 /* Frameworks */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = "Hello World";
+			name = "Hello, World";
 			productName = "Hello World";
-			productReference = BF853A40222D6D7800077DC3 /* Hello World */;
+			productReference = BF853A40222D6D7800077DC3 /* Hello, World */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +130,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF853A3B222D6D7800077DC3 /* Build configuration list for PBXProject "Hello World" */;
+			buildConfigurationList = BF853A3B222D6D7800077DC3 /* Build configuration list for PBXProject "Hello, World" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF853A3F222D6D7800077DC3 /* Hello World */,
+				BF853A3F222D6D7800077DC3 /* Hello, World */,
 			);
 		};
 /* End PBXProject section */
@@ -291,7 +291,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF853A3B222D6D7800077DC3 /* Build configuration list for PBXProject "Hello World" */ = {
+		BF853A3B222D6D7800077DC3 /* Build configuration list for PBXProject "Hello, World" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF853A45222D6D7800077DC3 /* Debug */,
@@ -300,7 +300,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF853A47222D6D7800077DC3 /* Build configuration list for PBXNativeTarget "Hello World" */ = {
+		BF853A47222D6D7800077DC3 /* Build configuration list for PBXNativeTarget "Hello, World" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF853A48222D6D7800077DC3 /* Debug */,

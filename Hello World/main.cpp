@@ -12,7 +12,9 @@
 int main(int argc, const char * argv[]) {
     // insert code here...
     using namespace std;
-    arrobj();
+    
+    //arrobj();
+    //travel();
     cout << "Hello, World!\n";
     
     return 0;

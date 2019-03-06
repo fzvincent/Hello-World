@@ -9,5 +9,5 @@
 #ifndef travel_hpp
 #define travel_hpp
 
-void travel();
+void Travel();
 #endif /* travel_hpp */

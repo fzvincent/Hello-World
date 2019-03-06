@@ -14,7 +14,7 @@ using namespace std;
 const int Seasons=4;
 const array<string,Seasons> Sanmes={"Spring","Summer","Fall","Winter"};
 
-void fill(array<double,Seasons>*pa)
+void Fill(array<double,Seasons>*pa)
 {
     for (int i=0;i<Seasons;i++)
     {
@@ -23,7 +23,7 @@ void fill(array<double,Seasons>*pa)
     }
 }
 
-void show(array<double,Seasons>da)
+void Show(array<double,Seasons>da)
 {
     long total=0;
     cout<<"\nExpense\n";
@@ -36,9 +36,9 @@ void show(array<double,Seasons>da)
     
 }
 
-void arrobj()
+void Arrobj()
 {
     array<double,Seasons>expenses;
-    fill(&expenses);
-    show(expenses);
+    Fill(&expenses);
+    Show(expenses);
 }

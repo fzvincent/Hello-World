@@ -15,25 +15,25 @@ struct travel_time
 };
 
 const int Mins_per_hr=60;
-travel_time sum(travel_time t1, travel_time t2 );
-void show_time (travel_time t);
+travel_time Sum(travel_time t1, travel_time t2 );
+void Show_time (travel_time t);
 
-void travel()
+void Travel()
 {
     using namespace std;
     travel_time day1={5,45};
     travel_time day2={4,55};
-    travel_time trip=sum(day1,day2);
+    travel_time trip=Sum(day1,day2);
     cout << "Two-day totoal: ";
-    show_time(trip);
+    Show_time(trip);
     
     travel_time day3={4,32};
     cout <<"Three-day total: ";
-    show_time(sum(trip,day3));
+    Show_time(Sum(trip,day3));
     
 }
 
-travel_time sum(travel_time t1,travel_time t2)
+travel_time Sum(travel_time t1,travel_time t2)
 {
     travel_time total;
     total.mins=(t1.mins+t2.mins)%Mins_per_hr;
@@ -41,7 +41,7 @@ travel_time sum(travel_time t1,travel_time t2)
     return total;
 }
 
-void show_time(travel_time t)
+void Show_time(travel_time t)
 {
     using namespace std;
     cout<<t.hours<<"hours,"<<t.mins<<"minuts\n";

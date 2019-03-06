@@ -10,5 +10,5 @@
 #define arrobj_hpp
 
 #include <stdio.h>
-void arrobj();
+void Arrobj();
 #endif /* arrobj_hpp */

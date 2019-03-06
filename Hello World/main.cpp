@@ -9,10 +9,13 @@
 #include <iostream>
 #include "travel.hpp"
 #include "arrobj.hpp"
+#include "funtemp.hpp"
+
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     using namespace std;
-    
+    FunTemp();
     //arrobj();
     //travel();
     cout << "Hello, World!\n";

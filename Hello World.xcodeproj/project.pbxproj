@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0E29F72253B24C00552743 /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0E29F12253AFDB00552743 /* vector.cpp */; };
+		BF0E29F82253B25000552743 /* randwalk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0E29F22253AFDB00552743 /* randwalk.cpp */; };
+		BF0E29F92253BA8800552743 /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0E29ED2253AFDB00552743 /* stack.cpp */; };
+		BF0E29FA2253BA8A00552743 /* stacker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0E29EC2253AFDB00552743 /* stacker.cpp */; };
+		BF0E29FB2253BA9000552743 /* ex11_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0E29F52253B01900552743 /* ex11_3.cpp */; };
+		BF0E29FC2253BA9300552743 /* ex11_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0E29F62253B01900552743 /* ex11_1.cpp */; };
 		BF853A44222D6D7800077DC3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF853A43222D6D7800077DC3 /* main.cpp */; };
 		BF853A52222D70E900077DC3 /* travel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF853A50222D70E900077DC3 /* travel.cpp */; };
 		BF853A59222D830B00077DC3 /* arrobj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF853A57222D830B00077DC3 /* arrobj.cpp */; };
@@ -215,10 +221,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF0E29FC2253BA9300552743 /* ex11_1.cpp in Sources */,
 				BF853A44222D6D7800077DC3 /* main.cpp in Sources */,
+				BF0E29FB2253BA9000552743 /* ex11_3.cpp in Sources */,
+				BF0E29FA2253BA8A00552743 /* stacker.cpp in Sources */,
+				BF0E29F92253BA8800552743 /* stack.cpp in Sources */,
 				BF853A52222D70E900077DC3 /* travel.cpp in Sources */,
 				BF853A59222D830B00077DC3 /* arrobj.cpp in Sources */,
 				BF853A5D222FF1A700077DC3 /* funtemp.cpp in Sources */,
+				BF0E29F72253B24C00552743 /* vector.cpp in Sources */,
+				BF0E29F82253B25000552743 /* randwalk.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

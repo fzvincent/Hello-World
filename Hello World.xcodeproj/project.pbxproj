@@ -26,6 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF0E29EC2253AFDB00552743 /* stacker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stacker.cpp; sourceTree = "<group>"; };
+		BF0E29ED2253AFDB00552743 /* stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stack.cpp; sourceTree = "<group>"; };
+		BF0E29EE2253AFDB00552743 /* stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stack.hpp; sourceTree = "<group>"; };
+		BF0E29F02253AFDB00552743 /* vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vector.hpp; sourceTree = "<group>"; };
+		BF0E29F12253AFDB00552743 /* vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
+		BF0E29F22253AFDB00552743 /* randwalk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = randwalk.cpp; sourceTree = "<group>"; };
+		BF0E29F42253B01900552743 /* ex11.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ex11.hpp; sourceTree = "<group>"; };
+		BF0E29F52253B01900552743 /* ex11_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ex11_3.cpp; sourceTree = "<group>"; };
+		BF0E29F62253B01900552743 /* ex11_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ex11_1.cpp; sourceTree = "<group>"; };
 		BF853A40222D6D7800077DC3 /* Hello World */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hello World"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF853A43222D6D7800077DC3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BF853A50222D70E900077DC3 /* travel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = travel.cpp; sourceTree = "<group>"; };
@@ -47,11 +56,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF0E29EB2253AFDB00552743 /* 190314 */ = {
+			isa = PBXGroup;
+			children = (
+				BF0E29EC2253AFDB00552743 /* stacker.cpp */,
+				BF0E29ED2253AFDB00552743 /* stack.cpp */,
+				BF0E29EE2253AFDB00552743 /* stack.hpp */,
+			);
+			path = 190314;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF0E29EF2253AFDB00552743 /* 190331_Friend  */ = {
+			isa = PBXGroup;
+			children = (
+				BF0E29F02253AFDB00552743 /* vector.hpp */,
+				BF0E29F12253AFDB00552743 /* vector.cpp */,
+				BF0E29F22253AFDB00552743 /* randwalk.cpp */,
+			);
+			path = "190331_Friend ";
+			sourceTree = SOURCE_ROOT;
+		};
+		BF0E29F32253B01900552743 /* Chapter 11 */ = {
+			isa = PBXGroup;
+			children = (
+				BF0E29F42253B01900552743 /* ex11.hpp */,
+				BF0E29F52253B01900552743 /* ex11_3.cpp */,
+				BF0E29F62253B01900552743 /* ex11_1.cpp */,
+			);
+			path = "Chapter 11";
+			sourceTree = "<group>";
+		};
 		BF853A37222D6D7800077DC3 = {
 			isa = PBXGroup;
 			children = (
-				BF853A5A222FF18800077DC3 /* 190306 */,
+				BF0E29F32253B01900552743 /* Chapter 11 */,
+				BF0E29EB2253AFDB00552743 /* 190314 */,
+				BF0E29EF2253AFDB00552743 /* 190331_Friend  */,
 				BF853A54222D74B900077DC3 /* 190304 */,
+				BF853A5A222FF18800077DC3 /* 190306 */,
 				BF853A42222D6D7800077DC3 /* Hello World */,
 				BF853A41222D6D7800077DC3 /* Products */,
 			);

@@ -10,12 +10,13 @@
 #include "travel.hpp"
 #include "arrobj.hpp"
 #include "funtemp.hpp"
-
+#include "ex11.hpp"
+#include "vector.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     using namespace std;
-    FunTemp();
+    Randwalk();
     //arrobj();
     //travel();
     cout << "Hello, World!\n";

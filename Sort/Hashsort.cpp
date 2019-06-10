@@ -14,7 +14,8 @@ void sortUsingHash(int a[], int n)
    // using namespace std;
     // find the maximum element
     int max = *std::max_element(a, a + n);
-    
+    ;
+    ;
     cout<<max;
     // create a hash function upto the max size
     int hash[20 + 1] = { 0 };

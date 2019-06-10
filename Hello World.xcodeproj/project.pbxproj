@@ -11,8 +11,10 @@
 		BF0E29F82253B25000552743 /* randwalk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0E29F22253AFDB00552743 /* randwalk.cpp */; };
 		BF0E29F92253BA8800552743 /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0E29ED2253AFDB00552743 /* stack.cpp */; };
 		BF0E29FA2253BA8A00552743 /* stacker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0E29EC2253AFDB00552743 /* stacker.cpp */; };
-		BF0E29FB2253BA9000552743 /* ex11_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0E29F52253B01900552743 /* ex11_3.cpp */; };
-		BF0E29FC2253BA9300552743 /* ex11_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0E29F62253B01900552743 /* ex11_1.cpp */; };
+		BF0E2A02225E2B8F00552743 /* ex11_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0E2A01225E2B8F00552743 /* ex11_1.cpp */; };
+		BF0E2A05225E2C0300552743 /* ex11_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF0E2A03225E2C0300552743 /* ex11_3.cpp */; };
+		BF193D5222943C2D00BF5E2E /* Hashsort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF193D5022943C2D00BF5E2E /* Hashsort.cpp */; };
+		BF193D5422943EA000BF5E2E /* sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF193D5322943EA000BF5E2E /* sort.cpp */; };
 		BF853A44222D6D7800077DC3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF853A43222D6D7800077DC3 /* main.cpp */; };
 		BF853A52222D70E900077DC3 /* travel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF853A50222D70E900077DC3 /* travel.cpp */; };
 		BF853A59222D830B00077DC3 /* arrobj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF853A57222D830B00077DC3 /* arrobj.cpp */; };
@@ -39,8 +41,11 @@
 		BF0E29F12253AFDB00552743 /* vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
 		BF0E29F22253AFDB00552743 /* randwalk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = randwalk.cpp; sourceTree = "<group>"; };
 		BF0E29F42253B01900552743 /* ex11.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ex11.hpp; sourceTree = "<group>"; };
-		BF0E29F52253B01900552743 /* ex11_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ex11_3.cpp; sourceTree = "<group>"; };
-		BF0E29F62253B01900552743 /* ex11_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ex11_1.cpp; sourceTree = "<group>"; };
+		BF0E2A01225E2B8F00552743 /* ex11_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ex11_1.cpp; sourceTree = "<group>"; };
+		BF0E2A03225E2C0300552743 /* ex11_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ex11_3.cpp; sourceTree = "<group>"; };
+		BF193D5022943C2D00BF5E2E /* Hashsort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hashsort.cpp; sourceTree = "<group>"; };
+		BF193D5122943C2D00BF5E2E /* sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sort.hpp; sourceTree = "<group>"; };
+		BF193D5322943EA000BF5E2E /* sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sort.cpp; sourceTree = "<group>"; };
 		BF853A40222D6D7800077DC3 /* Hello World */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hello World"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF853A43222D6D7800077DC3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BF853A50222D70E900077DC3 /* travel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = travel.cpp; sourceTree = "<group>"; };
@@ -86,15 +91,34 @@
 			isa = PBXGroup;
 			children = (
 				BF0E29F42253B01900552743 /* ex11.hpp */,
-				BF0E29F52253B01900552743 /* ex11_3.cpp */,
-				BF0E29F62253B01900552743 /* ex11_1.cpp */,
+				BF0E2A01225E2B8F00552743 /* ex11_1.cpp */,
+				BF0E2A03225E2C0300552743 /* ex11_3.cpp */,
 			);
 			path = "Chapter 11";
+			sourceTree = "<group>";
+		};
+		BF193D3B2263654200BF5E2E /* week3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = week3;
+			sourceTree = "<group>";
+		};
+		BF193D4F2294377800BF5E2E /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				BF193D5022943C2D00BF5E2E /* Hashsort.cpp */,
+				BF193D5122943C2D00BF5E2E /* sort.hpp */,
+				BF193D5322943EA000BF5E2E /* sort.cpp */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 		BF853A37222D6D7800077DC3 = {
 			isa = PBXGroup;
 			children = (
+				BF193D4F2294377800BF5E2E /* Sort */,
+				BF193D3B2263654200BF5E2E /* week3 */,
 				BF0E29F32253B01900552743 /* Chapter 11 */,
 				BF0E29EB2253AFDB00552743 /* 190314 */,
 				BF0E29EF2253AFDB00552743 /* 190331_Friend  */,
@@ -221,10 +245,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF0E29FC2253BA9300552743 /* ex11_1.cpp in Sources */,
+				BF0E2A05225E2C0300552743 /* ex11_3.cpp in Sources */,
+				BF0E2A02225E2B8F00552743 /* ex11_1.cpp in Sources */,
+				BF193D5222943C2D00BF5E2E /* Hashsort.cpp in Sources */,
 				BF853A44222D6D7800077DC3 /* main.cpp in Sources */,
-				BF0E29FB2253BA9000552743 /* ex11_3.cpp in Sources */,
 				BF0E29FA2253BA8A00552743 /* stacker.cpp in Sources */,
+				BF193D5422943EA000BF5E2E /* sort.cpp in Sources */,
 				BF0E29F92253BA8800552743 /* stack.cpp in Sources */,
 				BF853A52222D70E900077DC3 /* travel.cpp in Sources */,
 				BF853A59222D830B00077DC3 /* arrobj.cpp in Sources */,

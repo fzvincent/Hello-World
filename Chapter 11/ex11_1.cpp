@@ -1,11 +1,10 @@
 //
-//  11.cpp
+//  ex11_1.cpp
 //  Hello World
 //
-//  Created by Vincent Yu on 2019/4/2.
+//  Created by Vincent Yu on 2019/4/10.
 //  Copyright © 2019 Vincent Yu. All rights reserved.
 //
-
 
 #include <stdio.h>
 #include <iostream>
@@ -16,7 +15,7 @@ int ex11_1()
 {
     using namespace std;
     using VECTOR::Vector;
-    srand(time(0));
+    srand((unsigned int)time(0));
     double direction;
     Vector step;
     Vector result(0.0, 0.0);
@@ -24,8 +23,8 @@ int ex11_1()
     double target=100;
     double dstep=20;
     cout<<"Target Distace: "<<target<<", Step Size: "<<dstep<<endl;
-
-
+    
+    
     while (result.magval()<target)
     {
         cout<<steps<<": "<<result<<"\n"<<endl;
@@ -42,8 +41,8 @@ int ex11_1()
     cout << "Average outward distance per step ="<<result.magval()/steps<<endl;
     steps=0;
     result.reset(0.0, 0.0);
-
-        
+    
+    
     
     return 0;
 }

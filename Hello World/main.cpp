@@ -12,15 +12,19 @@
 #include "funtemp.hpp"
 #include "ex11.hpp"
 #include "vector.hpp"
+#include "stack.hpp"
+#include "sort.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     using namespace std;
-    Randwalk();
+   // cout<<"Hello";
+    //Stacker();
+    //ex11_3();
     //arrobj();
     //travel();
     cout << "Hello, World!\n";
-    
+    sort();
     return 0;
-    
+  
 }

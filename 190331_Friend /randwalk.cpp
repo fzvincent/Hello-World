@@ -11,11 +11,12 @@
 #include <cstdlib>
 #include <ctime>
 #include "vector.hpp"
+
 int Randwalk()
 {
     using namespace std;
     using VECTOR::Vector;
-    srand(time(0));
+    srand((unsigned int)time(0));
     double direction;
     Vector step;
     Vector result(0.0, 0.0);
